@@ -305,10 +305,81 @@ visibleAtAge: 0
 
 # -------------------------------------------------------
 # Explore the world of artist like you
-# Explore_the_world
+# finalist_songs
 ---
-id: explore_the_world
-name: Explore Songs From  SF Bay Area Students
+id: finalist_songs
+name: Listen to the Students Winning Songs !
+valley: changemaker
+content: |-
+  You're not the first one to take on this challenge. **Other students, around the world, have used the game** to crated their change making songs as well.
+  
+  In this quests, you'll be able to hear the **4 finalists songs that competed into the worlwide Music for Change Finale online** in front of 1.5 million people et judged by will.i.am, Jewel & Dave Wish!
+
+  Spend some time listening and figuring out what social justice movements each covers. These songs should give you an idea of what your songs could look like at the end of the game! (but yours can also be much different ;) 
+type: embedded
+CTA: Listen to the Songs 🎧
+positionLeft: 58.5
+positionTop: 79.5
+stages:
+- name: Finalist Songs from the Worldwide Music for Change challenge 
+  content: |-
+
+  type: musicShowcase
+  order: 0
+  requiredShowcaseViews: 0
+  quiz:
+    questions: []
+  showcaseItems:
+  - name: 1 Million Dreams
+    artist: Brandon B.
+    location: California, USA
+    videoId: 4eAlbwSJivc
+    noActionBtn: true
+    content: |-
+      **✏️ Bio:** Wassgoodie! My name is Pierre and I like to call myself an aspiring artist, but really, I'm just a kid with auto-tune.
+
+      **🏆 GRAND WINNER! 🥳**
+    order: 0
+  - name: Twenty-four Seven
+    artist: Elize de J.
+    location: Netherlands
+    videoId: HuHAuCi5FlM
+    noActionBtn: true
+    content: |-
+      **✏️ Bio:** My name is Elize de J., I love singing and making music in any other way! Hope you like my song <3
+
+      **🥇 Regional Finalist**
+    order: 1
+  - name: Lieber Gott (Dear God)
+    artist: Luca Pretzell
+    location: Germany
+    videoId: LQ3iYIaF7I0
+    noActionBtn: true
+    content: |-
+      **✏️ Bio:** Mein Name ist Luca. Ich mache Musik, weil ich in ihr Kraft finde und ich meine Gefühle in ihr widerspiegeln kann. Musik war schon immer ein großer Bestandteil in meinem Leben und hatte auf mich einen großen Einfluss, welcher für meine Lieder charakterisierend ist. Mein Ziel ist es durch die Musik, wie sich mich verändert hat, die Welt zu einem besseren Ort zu machen.
+
+      **🥇 Regional Finalist**
+    order: 2
+  - name: Mai Jaane De
+    artist: Mangesh P. T.
+    location: India
+    videoId: angpV7j4Ihs
+    noActionBtn: true
+    content: |-
+      **✏️ Bio:** Hey 😊, I'm Mangesh Tayade. I'm Degree College Student and Music 🎶 Maker.I started my Music Career when I was 10 years old. The past few years I've had a lot of fun making music. 
+
+      **🥇 Regional Finalist**
+    order: 3
+prerequisites: 
+- welcome_quest
+visibleAtAge: 1
+
+# -------------------------------------------------------
+# Explore the world of artist like you
+# finalist_songs
+---
+id: sf_examples
+name: Songs From SF Bay Area Students
 valley: changemaker
 content: |-
   In this quest, you'll find other students' songs that, like you, have gone through the game.
@@ -318,8 +389,8 @@ content: |-
   Spend some time listening and figuring out what social justice movements each covers. These songs should give you an idea of what your songs could look like at the end of the game! (but yours can also be much different ;) 
 type: embedded
 CTA: Listen to the Songs 🎧
-positionLeft: 68.5
-positionTop: 81.5
+positionLeft: 73
+positionTop: 83
 stages:
 - name: Songs From SF Bay Area Students 
   content: |-
@@ -347,16 +418,28 @@ stages:
           Examples: Anger, Happiness, Hopeful...
         type: freetext
   showcaseItems:
+  - name: 1 Million Dreams
+    artist: Brandon B.
+    location: California, USA
+    videoId: 4eAlbwSJivc
+    noActionBtn: true
+    content: |-
+      **✏️ Bio:** Wassgoodie! My name is Pierre and I like to call myself an aspiring artist, but really, I'm just a kid with auto-tune.
+
+      **🏆 WORLDWIDE WINNER! 🥳**
+    order: 0
   - name: Code switching
     artist: Lil Jerm
     location: Richmond, CA, USA
     songId: 6dbf9ca1-b922-eb11-9fb4-501ac5b31de6
     noActionBtn: true
     content: |-
-      Bio: In the fall I am going to be a freshman at the University of Loyola in
+      **✏️ Bio:** In the fall I am going to be a freshman at the University of Loyola in
       Maryland studying Computer Science. throughout my life I have played many
       instruments including drums, trumpet, piano, and bass guitar. During Highschool I
       lead my schools pep band and also played drums in the jazz band.
+
+      **✍️ Voted Best Lyrics**
     instructions: |-
       Listen or read this article.
     order: 0
@@ -366,11 +449,13 @@ stages:
     songId: a13d9415-b922-eb11-9fb4-501ac5b31de6
     noActionBtn: true
     content: |-
-      Bio: My name is Usean Redic and I am 19 years old. I attend the University of
+      **✏️ Bio:** My name is Usean Redic and I am 19 years old. I attend the University of
       California, Irvine, and I major in biological sciences/neurobiology and plan to
       minor in music composition. I have played trumpet for many years but I now
       mainly play piano, and a little bass. I went to a performing arts center for 5 years
       where I was taught music theory and played in ensembles.
+
+      **🎯 Voted Most Impactful**
     instructions: |-
       Listen or read this article.
     order: 1
@@ -380,21 +465,23 @@ stages:
     songId: 656b75c6-b922-eb11-9fb4-501ac5b31de6
     noActionBtn: true
     content: |-
-      Bio: Interested in all aspects of multimedia art, whether it be music, drawing or
+      **✏️ Bio:** Interested in all aspects of multimedia art, whether it be music, drawing or
       writing, Elijah Hynson is a man who likes to dabble in things. Mainly wanting to
       become a game designer, Elijah produces music as a hobby and the song,
       "Elevator Pitch" is his first real project. His goal is to use his art, whatever form it
       may be, as a platform to both engage and educate his audience.
+
+      **🎧 Voted Best Beat**
     instructions: |-
       Listen or read this article.
     order: 2
-  - name: N/A
+  - name: Real Me
     artist: Reezusls
     location: Oakland, CA, USA
     songId: 592d3028-ba22-eb11-9fb4-501ac5b31de6
     noActionBtn: true
     content: |-
-      Bio: My name is Reginald aka Reezus Lost Star. I've been messing with music for
+      **✏️ Bio:** My name is Reginald aka Reezus Lost Star. I've been messing with music for
       as long as I can remember and started taking it serious about 5 years ago. I hope
       to change the world through art.
     instructions: |-
@@ -406,8 +493,8 @@ stages:
     songId: 798e38b4-ba22-eb11-9fb4-501ac5b31de6
     noActionBtn: true
     content: |-
-        Bio: This is my first go round with making music. I feel pretty confident in this
-        song.
+      **✏️ Bio:** This is my first go round with making music. I feel pretty confident in this
+      song.
     instructions: |-
       Listen or read this article.
     order: 4
@@ -417,7 +504,7 @@ stages:
     songId: 37c80c71-ba22-eb11-9fb4-501ac5b31de6
     noActionBtn: true
     content: |-
-      Bio: My name is Usean Redic and I am 19 years old. I attend the University of
+      **✏️ Bio:** My name is Usean Redic and I am 19 years old. I attend the University of
       California, Irvine, and I major in biological sciences/neurobiology and plan to
       minor in music composition. I have played trumpet for many years but I now
       mainly play piano, and a little bass. I went to a performing arts center for 5 years
@@ -431,7 +518,7 @@ stages:
     songId: 89be7295-ba22-eb11-9fb4-501ac5b31de6
     noActionBtn: true
     content: |-
-      Bio: I am an aspiring music artist and producer. I like to make my own beats and
+      **✏️ Bio:** I am an aspiring music artist and producer. I like to make my own beats and
       apply lyrics to it to create my own songs.
     instructions: |-
       Listen or read this article.
@@ -441,6 +528,2050 @@ prerequisites:
 visibleAtAge: 1
 
 
+
+# -------------------------------------------------------
+# Explore the world of artist like you
+# germany_songs
+---
+id: germany_songs
+name: Songs From German Students
+valley: changemaker
+content: |-
+  In this quest, you'll find other students' songs that, like you, have gone through the game.
+  
+  The songs featured in this quest are made from alumni of [HeartBeat](http://www.heartbeatbus.de/), in **Germany**.
+
+  Spend some time listening and figuring out what social justice movements each covers. These songs should give you an idea of what your songs could look like at the end of the game! (but yours can also be much different ;) 
+type: embedded
+CTA: Listen to the Songs 🎧
+positionLeft: 73.5
+positionTop: 78
+stages:
+- name: Songs From German Students 
+  content: |-
+
+  type: musicShowcase
+  order: 0
+  requiredShowcaseViews: 0
+  quiz:
+    questions: []
+  showcaseItems:
+  - name: Lieber Gott (Dear God)
+    artist: Luca Pretzell
+    location: Germany
+    videoId: LQ3iYIaF7I0
+    noActionBtn: true
+    content: |-
+      **✏️ Bio:** Mein Name ist Luca. Ich mache Musik, weil ich in ihr Kraft finde und ich meine Gefühle in ihr widerspiegeln kann. Musik war schon immer ein großer Bestandteil in meinem Leben und hatte auf mich einen großen Einfluss, welcher für meine Lieder charakterisierend ist. Mein Ziel ist es durch die Musik, wie sich mich verändert hat, die Welt zu einem besseren Ort zu machen.
+
+      **🥇 Regional Finalist**
+    order: 0
+  - name: Nicht Aufgeben (Never Give Up)
+    artist: Irem Uçan
+    location: Germany
+    songId: cdff8006-ad2d-eb11-9fb4-501ac5b31de6
+    noActionBtn: true
+    content: |-
+      **✏️ Bio:** Ich habe meinen Hauptschulabschluss geschafft, obwohl es mir manche Leute nicht zugemutet haben & ich liebe MUSIK.
+      Hab außerdem noch 2-3 lyrics geschrieben.
+    lyrics: |-
+      **Translated Lyrics (in English):**
+      8 hours at work
+      get up early, always being ready
+      you have a lot of pressure & there will be more
+      it´s the head crying out loud
+      at school students are talking
+      behind my back
+      Giving up is all teachers teach me
+      "You don't have a chance anyway.
+      hey you can't do that!“
+      But now look, this song is for you!
+
+      Music is my medicine - you are not alone
+      Music is my medicine - you are not alone
+
+      Now I am sitting here
+      & everyone laughed at her
+      but now look what I am doing
+      dancing like nobody dance!
+      singing like nobody sings
+      laughing like nobody laughs
+      I am uniqueness
+      in its full glory
+
+      It needs strength not to fall
+      Or getting up again
+      In the future I would like
+      with even more ambition
+      going my ways
+      Even if I fall
+      I get up
+      full of joy
+      you can rely on it
+
+      Music is my medicine - you are not alone
+      Music is my medicine - you are not alone
+      Music is my medicine - you are not alone
+      Music is my medicine - you are not alone
+
+      **Original Lyrics (German):**
+      8 Stunden auf der Arbeit
+      früh aufstehen, immer bereit
+      man hat viel Druck & es wird mehr
+      es ist der Kopf der laut schreit
+      in der Schule reden Schüler
+      hinter meinem Rücken
+      Aufgeben ist alles, was die Lehrer mir vermitteln
+      ,,Du hast eh keine Chance &
+      hey das kannst du nicht!”
+      Doch jetzt sieh einmal her, der Song der ist für Dich!
+
+      Musik mein Medikament - auch du bist nich’ allein
+      Musik mein Medikament - auch du bist nich’ allein
+
+      Jetzt sitz ich hier
+      & alle haben sie ausgelacht
+      doch jetzt schaue was ich mache
+      tanzen so wie’s keiner macht!
+      singen so wie keiner singt
+      lachen sowie keiner lacht
+      ich bin Einzigartigkeit
+      in seiner vollen Pracht
+
+      Es braucht Kraft nicht zu fallen
+      Oder wieder aufzustehn
+      In Zukunft möchte ich
+      mit noch mehr Ehrgeiz
+      Meine wege geh’n
+      Selbst wenn ich Falle
+      steh ich auf
+      voller Freude
+      verlass dich drauf
+
+      Musik mein Medikament - auch du bist nich’ allein
+      Musik mein Medikament - auch du bist nich’ allein
+      Musik mein Medikament - auch du bist nich’ allein
+      Musik mein Medikament - auch du bist nich’ allein
+    order: 1
+  - name: Prov'em Wrong
+    artist: Ricky Coleman
+    location: Germany
+    songId: 81d99cb4-0a2e-eb11-9fb4-501ac5b31de6
+    noActionBtn: true
+    content: |-
+      **✏️ Bio:** Hi, mein Name ist Ricky und ich liebe es zu singen, rappen und meine eigenen Songs zu schreiben, welche ich unter Anderem auf *[Spotify hochlade](https://open.spotify.com/track/0ELCAVMQzKGGF8HJzXzbV4?si=qGUnC-yIT02G15gZOJu6oQ)*. Ich arbeite hart um meinen Traum - mit meiner Musik mein Geld zu verdienen - zu verwirklichen. Hoffe euch gefällt meine Musik und ich kann euch etwas mitgeben ; )
+    lyrics: |-
+      Hook:
+      You gotta prov'em wrong
+      Yeah prov'em wrong
+      Make a point and prov'em wrong
+      If they tell you what you can‘t become
+      You gotta prov‘em wrong
+      Yeah prov‘em wrong
+      Go ahead and prov‘em wrong
+      When they judge you ´cause of where you‘re from
+      You gotta prov‘em wrong
+
+      Verse 1:
+      I don‘t care who you are, ain‘t nobody can tell me where my home at
+      It‘s not for you to decide who I am and I feel like you don‘t really know that
+      They categorize and expect you to act in a certain way and I‘m sure that
+      Even though they can see, they don‘t want to believe, their assumptions are false and I quote that
+      All this is makin‘ me mad
+      I couldn‘t count all the incidents that I had
+      From people tellin‘ me, I should be smokin‘ the gas
+      To teachers saying I couldn‘t be good in their class
+      I mean.. Come on, I can see you through like glass
+      You have an image of a person when I say: „he‘s black“
+      Better see it for yourself, all you do is adapt
+      I see you‘re lost. Don‘t you worry I‘ma give you a map
+
+      Pre-Hook:
+      People always try to tell you who you are whether
+      It is givin‘ them pleasure
+      Or they don‘t know any better
+      So every time they call you out, quote the hook of this song
+      If you really want to win this fight you got to prov‘em wrong
+
+      Hook: (You gotta prov‘em wrong...)
+
+      Verse 2:
+      We‘re in a crisis
+      And I can see a lot of people who wanna fight this
+      But hate is a virus
+      So try to be righteous
+      And even though it‘s harder, gotta keep the politeness
+      Shine like a star with the positive brightness
+      To cure everybody misled by their blindness
+      If you‘re ´bout to try this, I know where your mind is
+      The new generation gonna kill‘em with kindness (woooo)
+
+      Switch:
+      Manchmal bin ich down und empfinde wieder Schmerzen
+      Jeder eurer Sprüche gibt mir Risse in mein Herzen
+      Und nach außen schein‘ ich langsam abzuhärten
+      Doch meine Seele ist am brennen sowie Kerzen
+      Ich dreh’ mich nie mehr wieder um, sollt‘ ich mal von euch gehen
+      Vielleicht bin ich einfach zu dumm, um das hier zu verstehen (mmh)
+      Doch bevor die letzte Hoffnung fällt
+      Kämpf‘ ich weiter und veränder‘ diese Welt
+
+      Pre-Hook (People always try to tell...)
+
+      Hook (You gotta prov‘em wrong...)
+
+      Outro:
+      Have you ever been a victim of.. bias, racism, colourism, violence, the list goes on..? Don‘t you worry. You‘re not alone!
+      Just know your worth, stay positive, go out there and.. you know, prov‘em wrong!
+
+    order: 2
+  - name: Love Yourself
+    artist: Daris
+    location: Germany
+    songId: 327857c5-092e-eb11-9fb4-501ac5b31de6
+    noActionBtn: true
+    content: |-
+      **✏️ Bio:** I want my music to give people goosebumps and make them sing along with their eyes closed.
+    lyrics: |-
+      **Original Lyrics:**
+      Love yourself
+      If you want the world to be a better place
+      Love yourself
+      Stand in front of the mirror look at your face
+      Love yourself
+      Look at your reflection and scream out I'm great
+      (Scream out I'm great)
+      Love yourself
+      If you want the world to be a better place
+      Love yourself 
+      Stand in front of the mirror look at your face
+      Love yourself
+      Look at your reflection and scream out I'm great
+      (Scream out I'm great)
+
+      When there's hate
+      There's always pain underneath
+      You're not happy with yourself
+      So nobody gets to breathe, yeah
+      Asking yourself what you need
+      Stop putting you down
+      And you'll feel better you'll see
+      Cause
+      Everybody's got their talent
+      You just got to find yours
+      Start working on your balance
+      And you'll survive the storm
+      Love yourself
+      Everytime I look around I dont see nothing but hate
+      Everybody's gotta get their shit together learn to meditate
+      Aceppting living with your flaws
+      Is what makes you great
+      You call it irony
+      But I call it fate
+
+      Love yourself
+      If you want the world to be a better place
+      Love yourself
+      Stand in front of the mirror look at your face
+      Love yourself
+      Look at your reflection and scream out I'm great
+
+      Aye, cause you know that you're great
+    order: 3
+  - name: Kein Titel (“No Title”)
+    artist: Jako
+    location: Germany
+    songId: 5916cfdd-092e-eb11-9fb4-501ac5b31de6
+    noActionBtn: true
+    content: |-
+      **✏️ Bio:** Jako, ein gefühlvoller ambitionierter junger Künstler, der mit seiner Musik, dein Herz erreichen möchte. Die Musik wurde längst zum größten Teil, seiner Selbsttherapie, das was "Sie" mir gab möchte ich "Ihr" zurück geben!!!
+    lyrics: |-
+      **Translated Lyrics (in English):**
+      Verse:
+      I don't see you, but think of you relentlessly
+      think of the phases in which we carried each other
+      underneath us, the broken vases,
+      I've been missing the colors since you left
+      only see black and white and can barely breathe,
+      I want to sleep, but cannot bear the loss of time
+
+      can't take it any longer, as it took me so many years,
+      but that I recognized this, it was just a matter of time when, the bubble would burst
+      endure bursting bubbles since childhood
+      how much suffering can only one person endure.
+
+
+      Chorus:
+
+      And now I'm sitting there again
+      have the headphones on
+      but the sound is off
+      though the sound inside me is loud.
+
+      And now I'm sitting there again
+      have the headphones on
+      but the sound is off
+      though the sound inside me is loud.
+
+      Verse:
+      As a result we fight with ourself
+      deep decay, resulting from chaos in the head
+      hear my heart beating
+      Breathing that stops
+      Mom's blood is dripping (after which he hit her again)
+
+      The rage, it's boiling
+      Scars veiled
+      with drugs that dispel grief
+      how to weld drugs
+      not only the neighbors in silence,
+      Policemen stay silent.
+
+      Everyone was quiet
+      and so it became quiet around us,
+      to us quietly
+
+      Chorus:
+      & we - to - his - hostage
+      & we to his hostage,
+      & we to his hostage
+      & we to his hostage
+
+      The darkness takes my view of things away
+      Senses are pre-programmed
+      Variations that work
+      to get away from it all
+      there is a fine line between wanting to be positive or serving you in suicide.
+
+      Does my eaten conscience stop the longing for love?
+
+      the sun is shining, but not in my heart
+      because of too much pain
+      break my curse with the sound
+      go and make my dream my job
+
+      
+      **Original Lyrics (German):**
+      Vers:
+      Ich sehe dich nicht, doch denk unerbittlich an dich,
+      denk an die Phasen, wie wir uns tragten,
+      unter uns, die zerbrochenen Vasen,
+      seit deinem Abgang fehlen mir die Farben
+      sehe nur schwarz-weiß und kann kaum noch atmen,
+      Will schlafen, doch kann den Zeitverlust nicht weiter ertragen
+      kann es weiter nicht ertragen, allein das nahm mir zahlreiche Jahre,
+      doch das ich das hier erkannt habe, war nur ne frage, von wann platzt die Blase,
+      ertrage geplatzte Seifenblasen schon seit Kindertagen
+      wie viel leid kann ein nur Mensch ertragen.
+
+      Chorus:
+
+      Und ich jetzt sitze wieder da
+      hab die Kopfhörer auf,
+      doch der Sound er ist aus
+      der Sound in mir laut.
+
+      Und ich jetzt sitze wieder da
+      hab die Kopfhörer auf,
+      doch der Sound er ist aus
+      der Sound in mir laut.
+
+      Vers:
+      Resultat tragen Kämpfe mit uns aus
+      tiefer Zerfall, resultiert aus Chaos im Kopf
+      hör wie mein Herz pocht
+      Atmung die stockt,
+      Mamas Blut tropft (nach, dem er sie wieder mal boxt)
+
+      Die Wut, sie kocht
+      Narben verschleiert
+      mit Drogen, die Kummer vertreiben
+      wie Drogen zu schweißen
+      nicht nur die Nachbarn am Schweigen,
+      Polizisten die Schweigen.
+
+      Alle waren leise
+      und so wurde es um uns leise,
+      um uns leise
+
+      Chorus :
+      & wir - zu - seiner - Geisel
+      & wir zu seiner Geisel,
+      & wir zu seiner Geisel
+      & wir zu seiner Geisel
+
+      Die Dunkelheit nimmt mir die Sicht der Dinge
+      Sinne sind vorprogrammiert
+      Variationen, die funktionieren,
+      um aus all dem hier zu entfliehen
+      ein schmaler Grat zwischen will ich positiv wirken oder dir beim Selbstmord dienen.
+
+      Stoppt mein zerfressenes Gewissen die Sehnsucht der Liebe?
+
+      the sun is shining, aber nicht in mein Herzen
+      wegen zu vielen Schmerzen
+      durchbreche mit dem Sound meinen Fluch
+      gehe und mache meinen Traum zum Beruf
+    order: 4
+  - name: Die Kämpfer (The Warrior)
+    artist: Nuria M. M.
+    location: Germany
+    songId: a97a26f7-0a2e-eb11-9fb4-501ac5b31de6
+    noActionBtn: true
+    content: |-
+      **✏️ Bio:** Ein sehr großherziger Mensch der sehr verletzen worden ist sehr viel durchgemacht hat und durch die Musik frei werden kann da sie die Probleme und Schmerz in den Song auslassen und hoffe das da jemand das nutzen und helfen kann da draußen.
+    lyrics: |-
+      **Translated Lyrics (in English):**
+      Yo yo
+      What you do for a lifetime
+      You can feel what you do
+      But I thought we would all stick together
+      It is clear to you what you are doing, whether black or white
+      Because the red blood is what welds us together, etc.
+      Believe me, I get really hot with these
+      Even if you think you don't know anything about it
+      Then I'll explain to you what it means to stand alone in a circle
+      Don't know who you are or what your name is
+      It is enough that you judge every person yes
+      I don't know what you mean when you say it's just shit
+
+      Because you're not the one who cries for your life in the evening
+      And he cries and he screams all worries and problems don't go away
+      No more hope, just pain and suffering
+      Because all this pain makes you feel empty
+      With anger and a lot of hatred ah you look at yourself in the mirror
+      And one wonders who is that one
+      You are no longer yourself because that twisted you
+      And you talk alone to the silence and pain
+      You don't understand why life is like that
+      But whenever I run forward I don't lose hope
+
+      Just these stones that fall on the ground
+      My blood boils and I watch
+      Lying people who contradict each other
+      To be what they say, they are without living it
+      And the one who feels cold sometimes is not the one who always trembles
+      Whoever weeps with his face covered is not a coward
+      The one who gives hugs is the one who needs them the most
+      and believe me you don't live in his skin
+      It's clear to you what it's doing, it's clear to you what you're doing anyway
+      For you it's just "fun"
+      But you don't see the pain, people have to suffer and because of your joke
+      They do not stop crying and the heart breaks in them
+
+      But the only thing there is the deep pain
+      The scars leave a pure nerve
+      Yes, time goes by, believe me, it's too late yeah
+      You should see how they feel, the best way to empathize
+
+      You behave like people without feelings
+      I can feel it and feel it
+      Because they have no rest they laugh during the day and the next one rob them of their rest
+      It is 1 o'clock without rest, the thoughts rob you of sleep
+      They think about the words you say to them
+      And that's no joke, because people think they are worthless and weak
+      With energy, sweat and blood, we shredded this anger
+      We have strength and we have courage
+      Be strong fight your way out of the one you live and once in a lifetime
+      As if make something out, yes they left scars and a lot of anger
+      Take your goals and dreams in hand and make something out of them
+      Let it pop and everyone will be amazed what you can make 
+      of it
+      Everyone is the way he is and we have to live relaxed ooo
+      She is so combative, He is so combative they want to oppress us but they can't help us
+      I fight, I lead my way to the light
+      you can us nothing and they blaspheme
+      She is so combative she cannot suppress us
+      Everyone is the way they are and we have to live relaxed
+      Tell me what difference does it make
+      That she has a different skin color
+      Because we are all the same there is no difference
+      Between gender, color or class
+      Blood is always red depending on the packaging
+      Tell me if you care about the weight you pull under your feet
+      Without knowing how much you're worth
+      There are no differences so get the message. Equality is the word that makes the planet fit
+      It can't be crying for you just because your life doesn't seem so good
+      So wake up and don't be like everyone, don't fall into the traps of the hunters
+      Turn your head on and if someone stops you, don't nod an aaa
+      Go your own rocky path, the train doesn't wait long, soon is gone, soon it is gone
+      Soon you will be the generation that determines our future
+      You think nothing is going right forward anymore
+      everything just takes a step back but I don't look in anger
+
+      There's also a bit of luck in traffic jams!
+      You have to take a lot and still continue with it and a lot mutt jaa
+      She is so combative, he is so combative they want to suppress us but no, I fight, I lead my way to the light
+      Yes, you can't tell us anything but you blaspheme, I'm combative
+
+      She is so combative, He is so combative they want to suppress us but no they can't
+      You have pocketed a lot and still keep going and that's the only way to win
+      With a lot of courage and sweat you can make it to infinity
+
+      Your dreams come true and everyone is back at once
+
+      And they hope to have a big party like nothing happened
+      So keep your next steps to yourself because some people are very disgusting
+
+      They betray, abandon and take advantage of someone just for fun
+      BUT IT DOESN'T COME THAT FAR ANY MORE IT'S OVER!
+
+      
+      **Original Lyrics (German):**
+      Jo jo
+      Das was ihr macht tut ein leben lang
+      Das was ihr anstellt hinterlässt spüren man
+      Doch ich dachte wir alle halten zusammen
+      Euch ist es klar was ihr macht den ob schwarz oder weiß
+      Den das rote Blut ist das was uns zusammen Schweißt o
+      Glaub mir bei diesen wird mir ganz heiß
+      Auch wenn du meinst das du nichts davon weißt
+      Dann erkläre ich dir was es heißt allein zu stehen in ein Kreis
+      Weiß nicht wer du bist oder wie du heißt
+      Den genug ist es das du jeden Menschen beurteilst ja
+      Ich weiß nicht was du meinst wenn du sagst es ist nur ein scheiß
+      Den du bist nicht derjenige der abends um sein Leben weint
+      Und er weint und er schreit doch alle sorgen und Probleme gehen nicht vorbei
+      Kein Funken Hoffnung mehr nur noch Schmerz und Leid
+      Weil mach all diesen Schmerz fühlt man sich leer
+      Mit Wut und sehr viel Hass ah man guckt sich in den Spiegel an
+      Und man fragt sich wer ist das man
+      Du bist nicht mehr du selbst den das hat dich verdreht
+      Und du redest allein mit der Stille und Schmerz
+      Man versteht nicht warum sich das Leben so verhält
+      Doch immer wenn ich nach vorne laufe verliere ich nicht die Hoffnung
+      Nur diese Steine die am Boden fällt
+      Mein Blut Kocht und ich beobachte
+      Lügende Menschen die sich widersprechen
+      Das zu sein, was sie sagen, sind sie, ohne es zu leben
+      Und der jenige der sich manchmal kalt fühlt ist nicht der jenige der immer zittert
+      Wer mit bedecktem Gesicht weint, ist kein Feigling
+      Derjenige, der Umarmungen gibt, ist derjenige, der sie am meisten braucht
+      und glaub mir ihr lebt nicht in seine haut
+      Euch ist es klar was es macht, euch ist es klar was ihr macht eh
+      Den für euch ist es nur „Spaß“
+      Doch ihr sieht nicht den Schmerz, die Menschen müssen leiden und wegen euren Scherz
+      Sie hören nicht auf zu weinen und in ihnen zerbricht das Herz
+      Doch der einzige das der da ist der Tiefen Schmerz
+      Die Narben hinterlassen puren Nerv
+      Ja die Zeit vergeht doch glaub mir es ist zu spät jaa
+      Ihr solltet gucken wie sie sich fühlen am besten sich hineinversetzen
+      Den benimmt euch wie Menschen ohne Gefühlen
+      Den ich kann es spüren und fühlen
+      Den sie haben keine Ruhe sie lachen Tags über und die nächste rauben ihnen die Ruhe
+      Es ist 1 Uhr ohne Ruhe die Gedanken rauben den Schlaf
+      Sie denken nach an die Wörter die ihr ihnen sagt
+      Und das ist kein Spaß!!!Den die Menschen denken sie wären wertlos und schwach
+      Mit Energie Schweiß und Blut zerfetzten wir diese Wut ja
+      Wir haben Stärke und wir haben Mut
+      Sei stark kämpf dich raus den man lebt und einmal im Leben
+      Als mach was raus ja sie haben Narben hinterlassen und sehr viel Wut
+      Nimm deine Ziele und Träume in die Hand und mach was raus
+      Lass es Knallen und alle Staunen was du daraus baust
+
+      Jeder ist so wie er ist und wir müssen entspannt leben ooo
+      Sie ist so kämpferisch , Er ist so Kämpferisch sie wollen uns unterdrücken aber man sie können uns nichts
+      Ich kämpfe ich, ich führe ich mein Weg zum licht
+      man sie können uns nichts und sie lästern ist
+      Sie ist so Kämpferisch sie können uns nicht unterdrücken
+      Jeder ist so wie er ist und wir müssen entspannt leben
+      Sag mir welchen Unterschied macht es
+      Das sie eine andere Farben haut hat
+      Den wir alle gleich sind es gibt kein Unterschied
+      Zwischen Geschlecht,Farbe oder Klasse
+      Blut ist nur abhängig von der Verpackung immer rot
+      Sagen Sie mir, wenn Sie sich für das Gewicht interessieren, das Sie unter Ihre Füße ziehen
+      Ohne zu wissen, wie viel du wert bist
+      Es gibt keine Unterschiede, also erhalten Sie die Nachricht. Gleichheit ist das Wort, das den Planeten fit macht
+      Es kann nicht sein wegen dich weinen nur weil euren leben nicht so gut scheint
+      Also wach auf und sei nicht wie jeder, falle nicht in den Fallen der Jäger rein
+      Schalte dein Kopf ein, und wenn dich jemand aufhält, nick nicht ein aaa
+      Gehe deinen eigenen steinigen Weg, der Zug wartet nicht lange bald ist weg bald ist er weg
+      Bald bist du die Generation die unsere Zukunft bestimmt
+      Du denkst nichts geht mehr richtig nach vorne
+      alles geht nur ein Schritt zurück doch ich Blicke nicht im Zorn
+      im Stau steckt auch etwas Glück!
+      Du hast sehr viel einstecken und machst daraus trotzdem weiter und sehr viel mutt jaa
+      Sie ist so Kämpferisch,er ist so Kämpferisch sie wollen uns unterdrücken aber nein ich kämpfe ich führe mein Weg zum Licht
+      Ja man sie können uns nichts aber sie lästern ich bin kämpferisch
+      Sie ist so Kämpferisch, Er ist so Kämpferisch sie wollen uns unterdrücken aber nein sie können es nicht
+      Du hast sehr viel eingesteckt und machst trotzdem weiter und nur so gewinnst du nur
+      Mit sehr viel Mut und Schweiß schaffst du es bis zu den Unendlichkeit
+      Deine Träume werden wahr und jeder ist auf einmal wieder da
+      Und sie hoffen auf eine große Party man als wäre nichts passiert
+      Also behalte deine weitere Schritte für dich den mansche Menschen sind sehr Widerlich
+      Sie hintergehen, verlassen und nutzen jemand aus nur um sein Spaß zu haben
+      ABER SO WEIT KOMMT ES NICHT MEHR ES IST AUSSS!
+    order: 5
+  - name: Unser Haus brennt (Our House is on Fire)
+    artist: Jan Luca Zimbardo
+    location: Germany
+    songId: 26add7fc-092e-eb11-9fb4-501ac5b31de6
+    noActionBtn: true
+    content: |-
+      **✏️ Bio:** Mit Jazzklavier und Gesang aufgewachsen bin ich mittlerweile zwar im Psychologie-Studium und in der Sozialen Arbeit mit Kindern und Jugendlichen gelandet, jedoch ist Musik für mich mehr als ein Hobby sondern Leidenschaft und Heimat. Meine Emotionen und Gedanken in Reimform und Instrumental wiederzugeben ist mein Ventil für einen inneren Ausgleich und mentale Freiheit.
+    lyrics: |-
+      **Translated Lyrics (in English):**
+      I have been following the rules for half a year, keeping my distance, keeping hygiene, not being able to see my friends and breaking all my plans,
+      have everything I long for, lost in quarantine. My everyday life consists only of Netflix and migraine.
+
+
+      I feel so damn isolated,
+      I need to get out of the silence here,
+      but only one look out of the window shows me that you didn't understand anything.
+
+      Many people boycott the system because of Covid
+      You demonstrate for your freedom, have you seen Moria?
+      Tent to tent crammed in without food without water,
+      You have to wear a mask, that is really unbelievable.
+
+
+      Our house is on fire
+      and the blame lies with man,
+      We steer clear of the crisis
+      Life in the ego-perspective
+
+      We can still learn a lot from living together
+      but we continue like this the future is in the stars
+
+      Time is running out slowly I hope you finally realize
+      our house is burning, our house is burning
+
+      I fly all alone up here, high above the ground,
+      I keep the overview, because that remains my method,
+      I see Covidiots with their index finger pointing upwards.
+      Blind hate spreads like misinformation.
+
+      From up here I see no boundaries
+      Bird's eye view of a fly
+      We urgently need to change something
+      and only love can help us
+
+      I say free out in all clarity
+      A large part of the herd is immune to the truth
+      In my imagination every human being is equal before God
+      When we stick together we are successful
+
+      Our house is on fire
+      and the blame lies with man,
+      We steer clear of the crisis
+      Life in the ego-perspective
+
+      We can still learn a lot from living together
+      but we continue like this the future is in the stars
+
+      Time is running out slowly I hope you finally realize
+      our house is burning, our house is burning
+
+      Our house is burning
+      and the blame lies with man,
+      We steer clear of the crisis
+      Life in the ego-perspective
+
+      We can still learn a lot from living together
+      but we continue like this the future is in the stars
+      Time is running out slowly I hope you finally realize
+      our house is burning, our house is burning
+
+      
+      **Original Lyrics (German):**
+      Ich halt mich seit nem halben Jahr an die Regeln, Abstand halten Hygiene, kann meine Freunde nicht sehen und zerschlage all meine Pläne,
+      hab alles wonach ich mich sehne, verlorn in der Quarantäne. Mein Alltag besteht nur noch aus Netflix und Migräne.
+
+      Ich fühl mich so verdammt isoliert,
+      Ich muss raus aus der stille hier,
+      doch nur ein Blick aus dem Fenster zeigt mir ihr habt anscheinend gar nichts kapiert.
+
+      Viele Menschen boykottieren wegen Covid das System
+      Ihr demonstriert für eure Freiheit, habt ihr Moria gesehn?
+      Zelt an Zelt eingepfercht ohne Essen ohne Wasser,
+      Ihr müsst ne Maske tragen ja das ist doch echt unfassbar.
+
+
+      Unser Haus brennt
+      und schuld ist der Mensch,
+      Wir steuern ohne Rückicht in die Krise
+      Leben in der Egoperspektive
+
+      Wir können noch ne Menge am Zusammenleben lernen
+      doch machen wir so weiter steht die Zukunft in den Sternen
+      Die Zeit läuft langsam ab ich hoff dass ihr endlich erkennt
+      unser Haus brennt, unser Haus brennt.
+
+      Ich fliege ganz alleine hier oben, hoch über dem Boden,
+      Ich behalt den Überblick, denn das bleibt meine Methode,
+      Ich sehe Covidioten mit dem Zeigefinger nach oben.
+      Blinder Hass verbreitet sich wie Falschinformationen.
+
+      Von hier oben seh ich keine Grenzen
+      Fliege in der Vogelperspektive
+      Wir müssen dringen etwas ändern
+      und dabei hilft uns nur die Liebe
+
+      Ich sags frei raus in aller klarheit
+      Ein großer Teil Herde ist immun gegen die Wahrheit
+      In meiner Vorstellung ist jeder Mensch vor Gott gleich
+      Wenn wir zusammenhalten sind wir auch Erfolgreich
+
+      Unser Haus brennt
+      und schuld ist der Mensch,
+      Wir steuern ohne Rückicht in die Krise
+      Leben in der Egoperspektive
+
+      Wir können noch ne Menge am Zusammenleben lernen
+      doch machen wir so weiter steht die Zukunft in den Sternen
+      Die Zeit läuft langsam ab ich hoff dass ihr endlich erkennt
+      unser Haus brennt, unser Haus brennt.
+
+      Unser Haus brennt
+      und schuld ist der Mensch,
+      Wir steuern ohne Rückicht in die Krise
+      Leben in der Egoperspektive
+
+      Wir können noch ne Menge am Zusammenleben lernen
+      doch machen wir so weiter steht die Zukunft in den Sternen
+      Die Zeit läuft langsam ab ich hoff dass ihr endlich erkennt
+      unser Haus brennt, unser Haus brennt.
+    order: 6
+  - name: Liebe Zukunft (Dear Future)
+    artist: Jeremy M. & Lukas S.
+    location: Germany
+    songId: c57db7cc-0a2e-eb11-9fb4-501ac5b31de6
+    noActionBtn: true
+    content: |-
+      **✏️ Bio:** 
+      
+      *Lukas S.:* Ich bin komme aus dem wunderschönen Offenbach am Main. In meiner Freizeit spiele ich gerne Fußball, schaue Anime und höre gerne Musik.
+      "Liebe Zukunft" ist mein erster eigener Song, und ich habe so meinen Spaß am Rappen und singen gefunden.
+      
+      *Jeremy M.:*
+      Ich bin komme aus Dietzenbach und Fußball ist meine Leidenschaft. Ich höre gerne Mark Forster und habe jetzt mit Lukas und Jan Luca meinen erstes eigenes Lied geschrieben und will sehr gerne mehr Musik machen.
+      
+      *Jan Luca Zimbardo:*
+      Ich bin Psychologiestudent und betreue die beiden Jungs in einer Tagesgruppe in Offenbach. Ich spiele Klavier und singe sehr gerne. Im Rahmen von dem Music for Change Programm haben die beiden Jungs und ich diesen Song zur aktuellen Zeit geschrieben um vor allem allen Kindern ein bisschen Hoffnung in der aktuellen Zeit zu geben.
+    lyrics: |-
+      **Translated Lyrics (in English):**
+      I sit at home and never see my friends
+      eternal being alone destroys harmony
+      The perspective of living without guarantee is missing
+      Tristere times since the pandemic
+
+      You can continue to deny it, conspiracy theories try to deceive us,
+      Lack of cohesion since Covid 19
+      But Heartbeat makes our heart shine.
+
+      Dear future I hope you will be pleasant,
+      I want to see you laugh again without a mask,
+      I hope we can stand close together without distance,
+      and walk through life as a strong unity.
+
+      Dear future, in my dreams you are beautiful.
+      I would like to feel that finally fresh winds are blowing again,
+      I would love to celebrate with my friends again,
+      Dear future, can you understand me?
+      Dear future, can you understand me?
+      Dear future, can you understand me?
+
+      Give free rein to creativity and never give up,
+      after the darkest hour the sky rips open again,
+      the big picture is important, so don't get carried away,
+      We paint over black and white with the most colorful paint,
+      We demand love, peace and respect today,
+      Leave the house and take the message out into the street.
+
+      Dear future I hope you will be pleasant,
+      I want to see you laugh again without a mask,
+      I hope we can stand close together without distance,
+      and walk through life as a strong unity.
+
+      Dear future, in my dreams you are beautiful.
+      I would like to feel that finally fresh winds are blowing again,
+      I would love to celebrate with my friends again,
+      Dear future, can you understand me?
+      Dear future, can you understand me?
+      Dear future, can you understand me?
+
+      I want to embrace the whole world, without mask on
+      I want to go on vacation to another country
+      We do not need a facetime anymore because we walk hand in hand
+      We make respect known all over the world again
+
+      Soon no more fear of Corona
+      We go back to the stadium and are there for our team
+      We celebrate New Year's Eve and we go to the Christmas market
+      Believe me, after Corona all my dreams will come true, hopefully next year!
+
+
+      Dear future I hope you will be pleasant,
+      I want to see you laugh again without a mask,
+      I hope we can stand close together without distance,
+      and walk through life as a strong unity.
+
+
+      Dear future, in my dreams you are beautiful.
+      I would like to feel that finally fresh winds are blowing again,
+      I would love to celebrate with my friends again,
+      Dear future, can you understand me?
+      Dear future, can you understand me?
+      Dear future, can you understand me?
+
+      
+      **Original Lyrics (German):**
+      Ich sitz zuhause und seh meine Freunde nie
+      das ewige allein sein zerstört die Harmonie
+      Es fehlt die Perspektive leben ohne garantie
+      Tristere Zeiten seit der Pandemie
+
+      Ihr könnt es Ruhig weiter leugnen, Verschwörungstheorien versuchen uns zu täuschen,
+      Fehlender Zusammenhalt seit Covid 19
+      Doch Heartbeat bringt unser Herz zum leuchten.
+
+      Liebe Zukunft ich hoffe du wirst angenehm,
+      ich will dich ohne Maske wieder Lachen sehen,
+      Ich hoff wir können ohne Abstand eng zusammen stehn,
+      und als starke Einheit durch das Leben gehn.
+
+      Liebe Zukunft, in meinen Träumen bist du schön.
+      Ich würd gern spürn dass endlich wieder frische Winde wehen,
+      Ich würd so gern mit meinen Freunden wieder feiern gehn,
+      Liebe Zukunft, kannst du mich verstehn?
+      Liebe Zukunft kannst du mich verstehn?
+      Liebe Zukunft kannst du mich verstehn?
+
+      Lass der Kreativität freien Lauf und gib niemals auf,
+      nach der dunkelsten Stunde reißt der Himmel wieder auf,
+      das große Ganze ist wichtig, also lass dein Gehabe,
+      Wir malen über schwarz-weiß mit buntester Farbe,
+      Wir Fordern Liebe, Frieden und Respekt heutzutage,
+      Verlass das Haus und trag die Botschaft raus auf die Straße.
+
+      Liebe Zukunft ich hoffe du wirst angenehm,
+      ich will dich ohne Maske wieder Lachen sehen,
+      Ich hoff wir können ohne Abstand eng zusammen stehn,
+      und als starke Einheit durch das Leben gehn.
+
+      Liebe Zukunft, in meinen Träumen bist du schön.
+      Ich würd gern spürn dass endlich wieder frische Winde wehen,
+      Ich würd so gern mit meinen Freunden wieder feiern gehn,
+      Liebe Zukunft, kannst du mich verstehn?
+      Liebe Zukunft kannst du mich verstehn?
+      Liebe Zukunft kannst du mich verstehn?
+
+      Ich will die ganze Welt umarmen, ohne Maske an
+      Ich will in den Urlaub fahrn in ein andres Land
+      Wir brauchen kein Facetime mehr denn wir laufen hand in hand
+      Wir machen Respekt wieder auf der ganzen Welt bekannt
+
+      Bald keine Angst mehr vor Corona
+      Wir gehn wieder ins Stadion und sind für unsre Mannschaft da
+      Wir feiern Silvester und wir gehen auf den Weihnachtsmarkt
+      Glaub mir nach Corona werden alle meine Träume wahr, hoffentlich nächstes Jahr!
+
+      Liebe Zukunft ich hoffe du wirst angenehm,
+      ich will dich ohne Maske wieder Lachen sehen,
+      Ich hoff wir können ohne Abstand eng zusammen stehn,
+      und als starke Einheit durch das Leben gehn.
+
+
+      Liebe Zukunft, in meinen Träumen bist du schön.
+      Ich würd gern spürn dass endlich wieder frische Winde wehen,
+      Ich würd so gern mit meinen Freunden wieder feiern gehn,
+      Liebe Zukunft, kannst du mich verstehn?
+      Liebe Zukunft kannst du mich verstehn?
+      Liebe Zukunft kannst du mich verstehn?
+    order: 7
+  - name: Meine Vision (My Vision)
+    artist: Can A.
+    location: Germany
+    songId: 98d1e0a0-092e-eb11-9fb4-501ac5b31de6
+    noActionBtn: true
+    content: |-
+      **✏️ Bio:** Was geht ab ich bin Can Schreibe seit einem Jahr Rap Lieder.
+      
+      Ich höre seit 4 Jahren Rap und habe seitdem ein Traum irgendwann mal ein erfolgreicher Rapper zu werden.
+    lyrics: |-
+      **Translated Lyrics (in English):**
+      Human rights major issue,
+      Human rights are a major issue, 
+      Yes I do not know much about it but
+      What I know is human is human
+      No matter where you come from. 
+
+      Black or white Large or small
+      There are no equal opportunities in this world. 
+      One eye laughs the other cries, 
+      Yes my brother this world is mean. 
+
+      No matter who you are, no matter what your name is
+      In my vision no one is alone. 
+      No rain only sunshine,
+      The people are all united at once. 
+      We draw the lessons from the past, 
+      Where the children starve and the parents cry. 
+      We have to change something now is the time, 
+      Because in the new world no one is alone. 
+
+      We all know that nothing has gone perfectly, 
+      But now it does not help to run away from the problems, because
+      We still have so much to change 
+      How poverty and hunger in countries 
+      Where they do not even have education
+      And still a lot of laughter.
+
+      It is clear that the children live their lives,
+      And are satisfied with what they have.
+      Family and friends,
+      The most important thing in your childhood,
+      What will you do 
+      when you suddenly don't have them?
+
+      Because it comes as it must come,
+      People are dying.
+      If one of your relatives dies, your heart lies in ruins. 
+      due to no food and too little help
+      His sister had to die
+      But he also has to overcome this. 
+
+      7 billion people, 
+      We have to start helping each other. 
+      No one will make it alone 
+      So we grab each other by the hands, 
+      And go the way together 
+      Until the end. 
+      We create a world like everybody would like to have. 
+
+      Human rights are a big issue, 
+      Yes I do not know much about it but
+      What I know is human is human
+      No matter where you come from. 
+
+      Black or white Large or small
+      There is no equality of opportunity in this world. 
+      One eye laughs the other cries, 
+      Yes my brother this world is mean. 
+
+      No matter who you are, no matter what your name is
+      In my vision no one is alone. 
+      No rain only sunshine,
+      The people are all united at once. 
+
+      We draw the lessons from the past, 
+      Where the children starve and the parents cry. 
+      We have to change something now is the time, 
+      Because in the new world no one is alone.
+
+      Homeless people live outside even in the cold 
+      They lead a life that nobody would like to have 
+      We all know exactly how this person suffers, 
+      He did not want it to be decided by fate after all. 
+
+      I have a vision and everyone should see it, 
+      We will walk the path together to the end. 
+      No one can do it alone
+      Because together we are stronger 
+      We are building a world where everyone gets what they deserve. 
+
+      cohesion between each of us
+      Is the best solution 
+      When we take care of each other 
+      Nobody will have to suffer any more 
+
+      We respect each other
+      Because we are all equal 
+      And in a few years all the problems will be solved
+
+      7 billion people, 
+      We have to start helping each other. 
+      No one will make it alone 
+      So we grab each other by the hands, 
+      And go the way together 
+      Until the end. 
+      We create a world like everybody would like to have. 
+
+      Human rights are a big issue, 
+      Yes I do not know much about it but
+      What I know is human is human
+      No matter where you come from. 
+
+      Black or white Large or small
+      There is no equality of opportunity in this world. 
+      One eye laughs the other cries, 
+      Yes my brother this world is mean. 
+
+      No matter who you are, no matter what your name is
+      In my vision no one is alone. 
+      No rain only sunshine,
+      The people are all united at once. 
+
+      We draw the lessons from the past, 
+      Where the children starve and the parents cry. 
+      We have to change something now is the time, 
+      Because in the new world no one is alone.
+
+      **Original Lyrics (German):**
+      Menschenrechte großes Thema, 
+      Ja ich weiß nicht viel davon doch
+      Was ich weiß ist Mensch ist mensch
+      Egal wo man auch herkommt. 
+
+      Schwarz oder Weiß Groß oder klein
+      Auf dieser Welt gibts keine Chancengleichheit. 
+      Eine Auge lacht das Andere weint, 
+      Ja mein Bruder diese Welt ist gemein. 
+
+      Egal wer du bist, egal wie du heißt
+      In meiner Vision ist keiner allein. 
+      Kein Regen nur Sonnenschein,
+      Die Menschen sind auf einmal alle vereint. 
+
+      Wir ziehen die lehren aus der Vergangenheit, 
+      Wo die Kinder hungern und die Eltern weinen. 
+      Wir müssen was ändern jetzt ist die zeit, 
+      Denn in der neuen Welt ist niemand allein. 
+      -----------
+      Wir wissen alle nichts ist perfekt gelaufen, 
+      Doch jetzt bringt es nichts von den Problemen wegzulaufen, denn
+      Wir müssen noch so viel ändern 
+      Wie Armut und Hunger in Ländern 
+      Wo sie nicht mal Bildung haben
+      Und trotzdem viel lachen.
+
+      Es ist klar die Kinder leben ihr leben,
+      Und geben sich mit dem was sie haben zufrieden.
+      Familie und Freunde,
+      Das wichtigste in deiner Kindheit,
+      Was wirst du machen 
+      wenn du sie auf einmal nicht hast?
+
+      Denn es kommt wie es kommen muss,
+      Die Menschen sterben.
+      Stirbt einer deiner Verwandten liegt dein Herz in Scherben. 
+      aufgrund keiner Nahrung und zu wenig Hilfe
+      Musste seine Schwester sterben
+      Doch auch das muss er überwinden. 
+
+      7 Milliarden Menschen, 
+      Wir müssen anfangen uns zu helfen. 
+      Keiner wird es alleine schaffen 
+      Also packen wir uns an den Händen, 
+      Und gehen den Weg gemeinsam 
+      Bis zum Ende. 
+      Wir kreieren eine Welt wie jeder sie gern hätte. 
+
+      --------
+      Menschenrechte großes Thema, 
+      Ja ich weiß nicht viel davon doch
+      Was ich weiß ist Mensch ist mensch
+      Egal wo man auch herkommt. 
+
+      Schwarz oder Weiß Groß oder klein
+      Auf dieser Welt gibts keine Chancengleichheit. 
+      Eine Auge lacht das Andere weint, 
+      Ja mein Bruder diese Welt ist gemein. 
+
+      Egal wer du bist, egal wie du heißt
+      In meiner Vision ist keiner allein. 
+      Kein Regen nur Sonnenschein,
+      Die Menschen sind auf einmal alle vereint. 
+
+      Wir ziehen die lehren aus der Vergangenheit, 
+      Wo die Kinder hungern und die Eltern weinen. 
+      Wir müssen was ändern jetzt ist die zeit, 
+      Denn in der neuen Welt ist niemand allein.
+      -------
+      Obdachlose leben draußen auch in der Kälte 
+      Sie führen ein Leben was keiner gerne hätte 
+      Wir wissen alle genau wie diese Person leidet, 
+      Er wollte es doch nicht so doch das Schicksal entscheidet. 
+
+      Ich hab eine Vision und die soll auch jeder sehen, 
+      Wir werden den Weg bis zum Ende gemeinsam gehen. 
+      Keiner schafft es allein
+      Denn zusammen sind wir stärker 
+      Wir bauen eine Welt wo jeder bekommt was er verdient hat. 
+
+      Zusammenhalt zwischen jedem von uns
+      Ist die beste Lösung 
+      Wenn wir aufeinander aufpassen 
+      Wird keiner mehr leiden müssen 
+
+      Wir respektieren uns gegenseitig
+      Weil wir uns alle gleich sind 
+      Und in ein paar Jahren sind all die Probleme beseitigt
+
+      7 Milliarden Menschen, 
+      Wir müssen anfangen uns zu helfen. 
+      Keiner wird es alleine schaffen 
+      Also packen wir uns an den Händen, 
+      Und gehen den Weg gemeinsam 
+      Bis zum Ende. 
+      Wir kreieren eine Welt wie jeder sie gern hätte. 
+
+      Menschenrechte großes Thema, 
+      Ja ich weiß nicht viel davon doch
+      Was ich weiß ist Mensch ist mensch
+      Egal wo man auch herkommt. 
+
+      Schwarz oder Weiß Groß oder klein
+      Auf dieser Welt gibts keine Chancengleichheit. 
+      Eine Auge lacht das Andere weint, 
+      Ja mein Bruder diese Welt ist gemein. 
+
+      Egal wer du bist, egal wie du heißt
+      In meiner Vision ist keiner allein. 
+      Kein Regen nur Sonnenschein,
+      Die Menschen sind auf einmal alle vereint. 
+
+      Wir ziehen die lehren aus der Vergangenheit, 
+      Wo die Kinder hungern und die Eltern weinen. 
+      Wir müssen was ändern jetzt ist die zeit, 
+      Denn in der neuen Welt ist niemand allein.
+    order: 8
+  - name: Shadow Work
+    artist: RA$YRE
+    location: Germany
+    songId: fdea72a8-0a2e-eb11-9fb4-501ac5b31de6
+    noActionBtn: true
+    content: |-
+      **✏️ Bio:** Das seltene Verlangen nach Wirkung und Bewegung steckt in mir und meiner Musik. Und ein Touch von mir den ich nicht richtig kategorisieren kann und möchte.
+      
+      RA$YRE mein Name wer seid ihr?
+    lyrics: |-
+      **Translated Lyrics (in English):**
+      I see myself from the outside, vision
+      dive off, lose my face, my shell 
+      fucked up from the view 
+      robbed senses by the poison 
+      my eyes eat without sense
+
+      skin 
+      as presented on the silver tray
+      made ready a touch ornated 
+      they pay the price of the stimuli 
+      for those who tend to have water in their mouth
+
+      psshh 
+      push the bottom like 
+      but the desire to be desired 
+      how disney princess rises
+
+      they want more how? 
+      using the addiction to get hype 
+      but saying lets normalize 
+      
+      **Original Lyrics (German):**
+      Ich sehe mich von außen, vision
+      tauche ab verliere mein Gesicht, meine Schale 
+      abgefuckt von der sicht 
+      beraubte Sinne von dem Gift 
+      meine Augen fressen ohne sinn
+
+      skin 
+      wie auf dem silbertablett präsentiert
+      zurecht gemacht ein hauch verziert 
+      sie zahlen den Preis der Reize 
+      für derer die zu wasser im mund neigen 
+
+      psshh 
+      push the bottom like 
+      aber die begierde begehrt zu werden 
+      wie disney princess steigt 
+
+      they want more how? 
+      using the addiction to get hype 
+      aber sagen lets normalize
+    order: 9
+prerequisites: 
+- welcome_quest
+visibleAtAge: 1
+
+
+
+# -------------------------------------------------------
+# Explore the world of artist like you
+# dutch_songs
+---
+id: dutch_songs
+name: Songs From Dutch Students (Netherlands)
+valley: changemaker
+content: |-
+  In this quest, you'll find other students' songs that, like you, have gone through the game.
+  
+  The songs featured in this quest are made from alumni of [Mavo Muurhuizen](https://mavomuurhuizen.nl/), in **the Netherlands**.
+
+  Spend some time listening and figuring out what social justice movements each covers. These songs should give you an idea of what your songs could look like at the end of the game! (but yours can also be much different ;) 
+type: embedded
+CTA: Listen to the Songs 🎧
+positionLeft: 71
+positionTop: 72
+stages:
+- name: Songs From Dutch Students 
+  content: |-
+
+  type: musicShowcase
+  order: 0
+  requiredShowcaseViews: 0
+  quiz:
+    questions: []
+  showcaseItems:
+  - name: Twenty-four Seven
+    artist: Elize de J.
+    location: The Netherlands
+    videoId: HuHAuCi5FlM
+    noActionBtn: true
+    content: |-
+      **✏️ Bio:** My name is Elize de J., I love singing and making music in any other way! Hope you like my song <3
+
+      **🥇 Regional Finalist**
+    order: 0
+  - name: Hope
+    artist: Berfin G.
+    location: The Netherlands
+    songId: e8bc8513-1b2e-eb11-9fb4-501ac5b31de6
+    noActionBtn: true
+    content: |-
+      **✏️ Bio:** HII, I’m berfin and I write my own songs and make my own music, 
+    lyrics: |-
+      Couplet
+      Nobody knows 
+      Nobody sees,
+      That I need help, it’s getting difficult to breathe 
+      And why does everyday feels the same, oh I hope that somebody sees
+
+      refrein
+      THAT
+
+      I’m falling apart 
+      I feel weak 
+      Tell me Can you hear me falling to my knees
+
+      Just Ordinary teens 
+      With there dreams 
+      Can’t do anything because of this deseas 
+
+      Couplet
+
+      I can see your tears 
+      Tell me why cause I don’t know 
+      And your darkest fears 
+      it’s better to let it go 
+
+      And I still have hope that’s what they don’t know, everyone around me is acting so low and why does it feels like the time is moving slow cause I don’t know.
+
+      refrein
+
+      THAT
+
+      I’m falling apart 
+      I feel weak 
+      Tell me can you hear me falling to my knees
+
+      Just Ordinary teens 
+      With there dreams 
+      Can’t do anything because of this deseas 
+
+      Couplet
+
+      And I can see your tears 
+      Tell me why cause I don’t know 
+      your darkest fears 
+      it’s better to let it go 
+      
+      And we stil have hope that’s what they don’t know waking up wishing there will be a better tomorrow and don’t you know, 
+
+      THAT, 
+
+
+      Couplet
+
+      I admire you because you're holding on
+      and in times like this your still staying strong, 
+      days getting long but your still having hope and that's what we have and they don’t,
+      even if we are apart your still a part,
+      don’t you see 
+
+      Eind- refrein
+      that, 
+
+      im not falling apart cause I learned to love,
+      in times like this that’s the most important 
+      and I’m not weak, I’m standing on my feet. 
+      It’s okay to fail because thats reality, 
+      we are apart but your here in my heart, 
+
+      4x and thats what really matters to me.
+    order: 1
+  - name: Don't Know Why?
+    artist: Guido D.
+    location: The Netherlands
+    songId: 93ae901f-1b2e-eb11-9fb4-501ac5b31de6
+    noActionBtn: true
+    content: |-
+      **✏️ Bio:**  I am a student in Netherland. I play guitar for eight moths and i want to be really good in it so i play every day guitar.
+    lyrics: |-
+      Don’t know why
+      every time
+      crying loud
+      because of what 
+      you just did to me
+
+      And I don’t understand
+      asking myself
+      is this what 
+      you really want
+      But I don’t want
+
+      Your using me
+      for my one sacrifice
+      And your killing me
+      Before my one suicide 
+      one suicide
+
+      No one can
+      Find me 
+      without traces
+      leave the world
+      behind me
+
+      I SAID PLEASE STOP NOW
+      CANT HAVE IT 
+      ANY LONGER
+      YOU NEED TO ACCEPT 
+      THAT I AM DIFFERENT 
+
+      If you don’t
+      Than let me go
+      If you won’t
+      Just let me go
+      Let me go
+    order: 2
+  - name: Be The Same
+    artist: Mila S.
+    location: The Netherlands
+    songId: 3b47df3d-1b2e-eb11-9fb4-501ac5b31de6
+    noActionBtn: true
+    content: |-
+      **✏️ Bio:** hi my name is Mila. this is my first song and i'm really proud of it
+    lyrics: |-
+      Give people a chance to be them selfs 
+      Not jugded by their looks or their education or where the com from 
+
+      We all want to be the same. 
+      Playing in the same game. 
+      Living our lives as it should be. 
+      Trying to find the real me. 
+
+      We all should learn to have respect. 
+      Not just for yourself but for others. 
+      For the black, for the single mothers. 
+      It is suppost to be our point of view when we are old. 
+      To see our childeren behave in the cold. 
+      Be nice and be kind we dont know what people have been through. 
+
+      We all want to be the same. 
+      Playing in the same game. 
+      Living our lives as it should be. 
+      Trying to find the real me. 
+
+      Everyone has their own looks 
+      That doesnt mean she cleans the house and cooks. 
+      We should not be judged by our apermenece 
+      It makes the differnce 
+      Give the paeple a chance 
+      Pick the lonely people up and dance 
+
+      We all want to be the same. 
+
+      Playing in the same game. 
+      Living our lives as it should be. 
+      Trying to find the real me. 
+
+      But we are all different. 
+      And that shoul be okay. 
+      And that is what i want to say 
+
+      We all want to be the same. 
+      Playing in the same game. 
+      Living our lives as it should be. 
+      Trying to find the real me. 
+
+      We all want to be the same. 
+      Playing in the same game. 
+      Living our lives as it should be. 
+      Trying to find the real me. 
+    order: 3
+  - name: Good Enough
+    artist: Lil’ TME
+    location: The Netherlands
+    songId: 893fb737-1b2e-eb11-9fb4-501ac5b31de6
+    noActionBtn: true
+    content: |-
+      **✏️ Bio:** My name is Timo, I make rap songs about life, love and subjects I got a good or a bad feeling with.
+    lyrics: |-
+      i think i was not good enough? 
+      you judge people i wont make you rough? 
+      you would say i am not good enough 
+      out of my mouth and i think i aint good enough 
+
+      be abled to reach their goals and dreams 
+      with the feeling i cant make my dream? 
+      so dont scream 
+      doing something special it seems 
+      there are people that know you can do it even in teams 
+      reach the things 
+      music is the theme 
+      understand eachother 
+
+      are you living like you are? 
+      best of life so far? 
+      change the world, you are a star 
+      real hard, take your time its not a competition or war 
+      you can make it to the top no matter what 
+      the people in this world 
+
+      the normal life 
+      lazy to do it different, lazy life 
+      my life the best life i will live 
+      on your own, ask for help cus thats okay 
+      to make your life amazing 
+      See this as ya homework yo 
+      you life great 
+
+      a piece of art aiii 
+      people with just one voice am i right 
+      dreaming, school is just guarter back 
+      they good enough, all the times ive cried 
+      act you good enough 
+      your life with doing nothing untill you die 
+      you have to start somewhere, my songs were dry 
+      good goals, i can see it even without having good eyes 
+      or make it even better and fly high 
+      you want to tell something on your mind i am you guy 
+      people hate it, keep saying hi 
+      why is it hard? 
+      this world is a lie right now 
+      it is okay if you are shy 
+      it is not working, you will get high as the sky 
+      practice just try 
+
+      teach you how to reach your dreams 
+      back up, plan B for your dreams 
+      your dreams come true cus of them 
+      just giving you homework and test 
+      Sad life cus of the bad grades and i scream 
+      Who is the real me? No one it seems 
+      this way, you make it on your own without a team 
+
+      It will always be this way 
+      we are changing it, but it wont be a a 
+      people know what i say 
+      But a lot wont to everyday 
+      already reached their goal hey 
+      feel insecure, went down or be depressed, doing anything to get pay 
+      use this topic, they pray fo me 
+      look better, that people tell other people their ideas its a lot to say 
+      what is wrong or why dont feel okay 
+      the same, i know, but we can slay it 
+      stay the same 
+      they dont want concurrents in their world yeah they dont 
+      they will get them anyway 
+      felt like i couldnt do anything this way 
+      Experienced it myself yeah 
+      And still do experience it 
+      a lot of time 
+      school is hitting me hard 
+      want other lifes to be better then mine
+    order: 4
+prerequisites: 
+- welcome_quest
+visibleAtAge: 1
+
+
+
+# -------------------------------------------------------
+# Explore the world of artist like you
+# indian_songs
+---
+id: indian_songs
+name: Songs From Indian Students
+valley: changemaker
+content: |-
+  In this quest, you'll find other students' songs that, like you, have gone through the game.
+  
+  The songs featured in this quest are made from alumni of  [Sukrupa](https://www.sukrupa.org/), [Shankar Mahadevan Academy](https://www.shankarmahadevanacademy.com/) & [Music Basti](https://enablingleadership.org/music-basti/), in **India**.
+
+  Spend some time listening and figuring out what social justice movements each covers. These songs should give you an idea of what your songs could look like at the end of the game! (but yours can also be much different ;) 
+type: embedded
+CTA: Listen to the Songs 🎧
+positionLeft: 86
+positionTop: 73
+stages:
+- name: Songs From Indian Students 
+  content: |-
+
+  type: musicShowcase
+  order: 0
+  requiredShowcaseViews: 0
+  quiz:
+    questions: []
+  showcaseItems:
+  - name: Mai Jaane De
+    artist: Mangesh P. T.
+    location: India
+    videoId: angpV7j4Ihs
+    noActionBtn: true
+    content: |-
+      **✏️ Bio:** Hey 😊, I'm Mangesh Tayade. I'm Degree College Student and Music 🎶 Maker.I started my Music Career when I was 10 years old. The past few years I've had a lot of fun making music. 
+
+      **🥇 Regional Finalist**
+    order: 0
+  - name: Don’t Give Up
+    artist: Stella M.
+    location: India
+    songId: 32c425e4-3d25-eb11-9fb4-501ac5b31de6
+    noActionBtn: true
+    content: |-
+      **✏️ Bio:** My name is Stella Mary. I am a college student and a singer. I love to sing, I started singing when I was four years old. Music makes me happy and I enjoy singing and playing the piano. I have been part of many choirs and performed at many concerts. I live the moment when I'm singing. I want to be a singer when I grow up.
+    lyrics: |-
+      **Original Lyrics:**
+      My dear peers, my fellow women and girls
+      Imagine a bold plan 
+      For a world without discrimination 
+      Filled with equality 
+      A women in harmony 
+      With her spirit like a river 
+      Flowing where she wills 
+      Without fear to reach her destination
+
+      Don't give up 
+      Be firm like the mountain
+      Don't give up 
+      Be firm like the mountain
+
+      For a long time 
+      Women are crushed 
+      And overpowered
+      Now is the time 
+      To stand up and raise the voice 
+      For Equality
+
+      Don't give up 
+      Be firm like the mountain
+      Don't give up 
+      Be firm like the mountain
+
+      I want to make it a reality 
+      To know that you are strong cause 
+      You are a women 
+      Stop the tears of weakness 
+      Stay strong be bold keep your spirits on high...
+
+      Do not let your fears prevent you 
+      From doing what you know is right 
+      Stay strong and share it with 
+      All the women the rights that
+      You claim for 
+      Equality..
+
+      Don't give up 
+      Be firm like the mountain.
+
+      Don't give up 
+      Be firm like the mountain
+
+      Don't give up 
+      Be firm like the mountain...
+    order: 1
+  - name: Meri Zubani
+    artist: Mayank P.
+    location: India
+    songId: 1842a7ba-2d1e-eb11-96f5-501ac5b31de6
+    noActionBtn: true
+    content: |-
+      **✏️ Bio:** My name is Mayank Parab. I am a chess player and also singer. I started singing only 2 years back.I absolutely love music, it helps me concentrate more in the game of chess.
+    lyrics: |-
+      **Translated Lyrics (in English):**
+
+      What do we know about the efforts they have put
+      They put in their sweat daily and don’t live on blessings
+      No one considers the poor as their own
+      Still their hearts are purer than the rich
+      I take a pledge
+      To ensure that the poor don’t go to sleep hungry
+
+      How much more will we test them
+      Why don’t they get the same education as us
+      They cried because people have cheated them
+      The greedy have looted them of their money
+      I take a pledge
+      To ensure that the poor don’t go to sleep hungry
+
+      Why do we give them food scraps
+      Instead we should teach them to be self-sufficient
+      While we waste so much food daily
+      The poor yearn for even 2 drops of water
+      I take a pledge
+      To ensure that the poor don’t go to sleep hungry
+
+      Starting today, we promise ourselves
+      That we will help the poor as much as possible
+      We will end the differences
+      Their lives will no longer remain dark
+      I take a pledge
+      To ensure that the poor don’t go to sleep hungry
+
+      **Original Lyrics (Hindi):**
+
+      Hume kya pata inhone kari kitni mehnat 
+      Roz pasina bahakar karta nahi koi rehmat 
+      Gareebon ko koi kabhi manta nahi hai apna 
+      Phir bhi unka dil hai ameeron se sacha
+      Meri ye zubaani ; kasam ye uthani 
+      Gareebon ki to hai bhuk mitani 
+
+      Aur kitna lenge hum in logon ki pariksha 
+      Kyu nahi milti inhe hum logon jaisi shiksha 
+      Logon ne beemani karke inko rulaaya 
+      Lalchi bankar logone hai saara paisa inka khaya 
+      Meri ye zubaani ; kasam ye uthani 
+      Gareebon ki to hai bhuk mitani 
+
+      Kyu dete hum inhe bacha kuch basi khana 
+      Isse acha sikhate hai mehnat ka paisa kamana 
+      Khane ke baad hum kitna khana fekte hain 
+      Ek do boond pani ke liye bhi ye log taraste hain
+      Meri ye zubaani ; kasam ye uthani 
+      Gareebon ki to hai bhuk mitani 
+
+      Aaj se apne aap se hum karenge ye wada 
+      Inke liye bhi hum karenge kuch jyada 
+      Than liya hai mitayenge ye antar 
+      Inki zindagi nahi rahegi ab banjar
+      Meri ye zubaani ; kasam ye uthani 
+      Gareebon ki to hai bhuk mitani 
+    order: 2
+  - name: Sakagide
+    artist: Bharath B
+    location: India
+    songId: 808f8380-311e-eb11-96f5-501ac5b31de6
+    noActionBtn: true
+    content: |-
+      **✏️ Bio:** I am Bharath, studying in St.Josephs College. I always have enjoyed singing! Singing in front of a large crowd makes me happy and motivates me. I am part of Bangalore School of Music Children's Choir where I get to perform at many concerts. I also a part of Christ Junior College Students Choir. I want to be a singer.
+    lyrics: |-
+      **Translated Lyrics (in English):**
+
+      This life is enough for me
+      So poor that cannot satisfy my hunger
+
+      I dreamt of becoming popular 
+      How many days do I need to see that day! 
+
+      Even small desires cannot be realized 
+
+      Time waits for no man
+
+      Imploringly I prayed for compassion
+
+      Victory is yours if you fight and fight
+
+      This life is enough for me
+      So poor that cannot satisfy my hunger
+
+      I dreamt of becoming popular 
+      How many days do I need to see that day! 
+
+      Don’t depend on others help 
+      Keep moving on your path smiling
+
+      Education only makes living possible 
+      Pains make you a hero
+
+      We must live by our own hard work
+
+      Unburden our poverty from our shoulders
+
+      Even small desires cannot be realized 
+
+      Time waits for no man
+
+      Imploringly I prayed for compassion
+
+      Victory is yours if you fight and fight
+
+      This life is not enough for you, if you foolishly miss the opportunities
+
+      **Original Lyrics (Kannada):**
+
+      ಸಾಕಾಗಿದೆ ನನಗೆ ಈ ಜೀವನ
+      ಹಸಿವು ಕೂಡ ತೀರ ದಂತ ಕೆಟ್ಟ ಬಡತನ
+
+      ಕನಸ ಕಂಡೆ ಪ್ರಬಲನಾಗ ಬೇಕೆಂದು ನಾ
+      ಇನ್ನು ಎಷ್ಟು ದಿನ ಬೇಕು ಕಾಣೆ ಬರಲು ಆ ದಿನ
+
+      ಸಣ್ಣ ಸಣ್ಣ ಆಸೆ ಕೂಡ ನನಸು ವಾಗದು
+
+      ಯಾರಿಗಾಗಿ ಕೂಡ ಕಾಲ ನಿಂತು ಸಾಗದು
+
+      ಅಂಗಲಾಚಿ ಬೇಡಿದೆನು ಕರುಣೆಯೊಂದೆ ಬಾರದೆಂದು
+
+      ಹೋರಾಡು ಹೋರಾಡು ಗೆಲುವು ನಿನಗೆ ಕಾದಿಹುದು
+
+      ಸಾಕಾಗಿದೆ ನನಗೆ ಈ ಜೀವನ
+      ಹಸಿವು ಕೂಡ ತೀರ ದಂತ ಕೆಟ್ಟ ಬಡತನ
+
+      ಕನಸ ಕಂಡೆ ಪ್ರಬಲನಾಗ ಬೇಕೆಂದು ನಾ
+      ಇನ್ನು ಎಷ್ಟು ದಿನ ಬೇಕು ಕಾಣೆ ಬರಲು ಆ ದಿನ
+
+      ಬೇರೆಯವರ ಸಹಾಯದಿಂದ ಬದುಕು ದ ಬಿಡು
+      ನಿನ್ನ ದಾರಿಯಲ್ಲಿ ನೀನು ನಗುತ ಸಾಗುತ್ತಿರು
+
+      ಓದು ಓದಿನಿಂದಲೇ ಬದುಕು ಸಾರ್ಥಕ
+      ಶ್ರಮಪಟ್ಟರೆ ಇಂದಿಗಾಳು ಮುಂದೆ ನಾಯಕ
+
+      ನಮ್ಮ ಸ್ವಂತ ದುಡಿಮೆಯಿಂದ ನಾವು ಬದುಕಬೇಕು
+
+      ಬಡತನದ ಮೂಟೆಯನ್ನು ಹೆಗಲಿನಿಂದ ಇಳಿಸಬೇಕು
+
+      ಸಣ್ಣ ಸಣ್ಣ ಆಸೆ ಕೂಡ ನನಸು ವಾಗದು
+
+      ಯಾರಿಗಾಗಿ ಕೂಡ ಕಾಲ ನಿಂತು ಸಾಗದು
+
+      ಅಂಗಲಾಚಿ ಬೇಡಿದರೂ ಕರುಣೆ ಬಾರದು
+
+      ಹೋರಾಡು ಹೋರಾಡು ಗೆಲುವು ನಿನಗೆ ಕಾದಿಹುದು
+
+      "ಸಾಕಾಗದೆ ನಿನಗೆ ಈ ಜೀವನ ಬಂದ ಅವಕಾಶಗಳನ್ನು ಉಪಯೋಗಿಸಿಕೊಳ್ಳದಿದ್ದರೆ ಅದು ನಿನ್ನ ಮೂರ್ಖತನ"
+    order: 3
+  - name: Samanathe
+    artist: Sagar
+    location: India
+    songId: e74e2895-851f-eb11-96f5-501ac5b31de6
+    noActionBtn: true
+    content: |-
+      **✏️ Bio:** Myself Sagar, studying in 10th Grade at SUKRUPA. I have been singing for the past three years, I like to sing. I was part of Bangalore School of Music Children's choir where I have performed at various platforms and sang different vocals. I enjoy singing in a group. 
+    lyrics: |-
+      **Translated Lyrics (in English):**
+      One women who stay in our lives forever
+      as a mother of one
+      As a sister, as a girlfriend, as a wife, as a daughter, 
+      since from our birth to death
+      in one or the other way
+      But why don’t we treat her equally?
+
+
+      Hey human stop your force on a women 
+      Let the amorous within you annihilate
+      Forgotten your mother is a women
+      However, eventually you end up in the soil
+
+      You are the creation of this universe, you are the light of your home
+      Hey women, you are here for the life you are
+
+      Right from the birth endure the pain you have given her
+      Is not the woman who gave birth to you?
+      But why make her look inferior
+      All atrocity is happening to her
+      No matter how hard it is, she is unable to afford justice
+      At least change now and move forward
+      as a human who thinks that women is the life
+
+      You are the creation of this universe, you are the light of your home
+      Hey women, you are here for the life you are
+
+      Hey human stop your force on a women 
+      Let the amorous within you annihilate
+      Forgotten your mother is a women
+      However, eventually you end up in the soil
+
+      **Original Lyrics (Kannada):**
+      ಒಂದು ಹೆಣ್ಣು ನಮ್ಮ ಜೀವನದಲ್ಲಿ
+      ಉದ್ದಕ್ಕೂ ಹೇಗೆ ಜೊತೆಯಾಗಿ ಇರ್ತಾಳೆ
+      ಆದರೆ ಒಬ್ಬಳು ತಾಯಿಯಾಗಿ
+      ಸಹೋದರಿಯಾಗಿ, ಗೆಳತಿಯಾಗಿ, ಸತಿಯಾಗಿ, ಮಗಳಾಗಿ
+      ನಮ್ಮ ಹುಟ್ಟಿನಿಂದ ಸಾಯೋತನಕ
+      ನಮಗೆ ಒಂದಲ್ಲ ಒಂದು ರೀತಿಯಾಗಿ ಜೊತೆಯಾಗಿ ಇರ್ತಾಳೆ
+      ಆದರೆ ಏಕೆ ಅವಳನ್ನು ಸಮವಾಗಿ ನೋಡೋದಿಲ್ಲ
+
+      ಮಾನವ ಸಾಕು ನಿಲ್ಲಿಸು ನಿನ್ನ ಬಲತ್ಕಾರ
+      ಆಗಲಿ ನಿನ್ನ ಒಳಗಿನ ಕಾಮುಕನ ಸಂಹಾರ
+      ಮರೆತುಹೋಯಿತೇ ನಿನ್ನ ಹೆತ್ತವಳು ಒಂದು ಹೆಣ್ಣು
+      ಏನೇ ಆದರೂ ಕೊನೆಗೆ ನೀನು ಸೇರುವೆ ಈ ಮಣ್ಣು
+
+      ಜಗದ ಸೃಷ್ಟಿ ನೀನೆ ಮನೆಯ ಬೆಳಗು ಜ್ಯೋತಿ ನೀನೆ
+      ಬಾಳ ಬದುಕಿಗೆ ನೀನೇ ತಾನೆ ನಿನಗೆ ಸಾಟಿ ಇಲ್ಲಿ ಯಾರು ಹೆಣ್ಣು
+
+
+      ಹೆತ್ತು ಹೊತ್ತು ಸಾಕಿ ಸಲಹಿ ನೀನು ಕೊಟ್ಟ ನೋವು ಸಹಿಸಿ
+      ನಿನಗೆ ಜನ್ಮ ನೀಡಿದವಳು ಹೆಣ್ಣಲ್ಲವೇ
+      ಆದರೆ ಏಕೆ ಅವಳನ್ನು ಕೀಳಾಗಿ ಕಾಣುವ
+      ಎಲ್ಲಾ ಕಡೆ ನಡೀತಿದೆ ಅವಳ ಮೇಲೆ ದೌರ್ಜನ್ಯ
+      ಎಷ್ಟೇ ಕಷ್ಟಪಟ್ಟರೂ ಸಿಗುತ್ತಿಲ್ಲ ಒಳ್ಳೆ ನ್ಯಾಯ
+      ಇಂದಾದರೂ ಬದಲಾಗು ಮುಂದಾದರು ಬದಲಾಗು
+      ಹೆಣ್ಣೆ ನೇ ಜೀವ ಎಂದು ಭಾವಿಸುವ ಮನುಜನಾಗಿ
+
+      ಜಗದ ಸೃಷ್ಟಿ ನೀನೆ ಮನೆಯ ಬೆಳಗು ಜ್ಯೋತಿ ನೀನೆ
+      ಬಾಳ ಬದುಕಿಗೆ ನೀನೇ ತಾನೆ ನಿನಗೆ ಸಾಟಿ ಇಲ್ಲಿ ಯಾರು ಹೆಣ್ಣು
+
+
+      ಮಾನವ ಸಾಕು ನಿಲ್ಲಿಸು ನಿನ್ನ ಬಲತ್ಕಾರ
+      ಆಗಲಿ ನಿನ್ನ ಒಳಗಿನ ಕಾಮುಕನ ಸಂಹಾರ
+      ಮರೆತುಹೋಯಿತೇ ನಿನ್ನ ಹೆತ್ತವಳು ಒಂದು ಹೆಣ್ಣು
+      ಏನೇ ಆದರೂ ಕೊನೆಗೆ ನೀನು ಸೇರುವೆ ಈ ಮಣ್ಣು
+    order: 4
+  - name: Kalvi
+    artist: Vinolia
+    location: India
+    songId: 4d3e04ff-4725-eb11-9fb4-501ac5b31de6
+    noActionBtn: true
+    content: |-
+      **✏️ Bio:** My name is Vinolia. I'am studying in St. Annes PU College. I'm a singer. I started singing when I was 11 years old. I have been part of Bangalore School of Music Children's Choir. I sang at many concerts. When I sing I feel very happy and I also learn film songs when I'm free.
+    lyrics: |-
+      **Translated Lyrics (in English):**
+      *Education the root to success* 
+      Education the root to gain Knowledge
+      Education teaches to overcome the problems
+      Education raises the living standard of children
+      
+      Education, Education, Education 
+      Education, Education, Education 
+      
+      Education gives the knowledge Even to the child in the Womb
+      Education teaches me to know who am I and understand this world
+      Education is the only way for the change and root cause.
+      
+      Education, Education, Education 
+      Education, Education, Education 
+      
+      Education helps us to read and write
+      Education raises our Life’s standard 
+      Education raises the women’s power in this world 
+      and teaches how to handle the problems and challenges in this world 
+      Education gives us the self-confidence 
+      
+      Education, Education, Education 
+      
+      Education reduces the burden
+      Education the way to abolish hunger from the world
+      The beautiful Education is the only way for the change in the world
+
+      **Original Lyrics (Tamil):**
+      வெற்றிக்கு தீர்வுகள் கல்வி
+      அறிவு கொடுக்கும் கல்வி
+      பிரச்சனை தீர்க்க வழிகாட்டி கல்வி
+      பிள்ளைகளுக்கு உயர்ந்த நிலை ஏற்றும் கல்வி
+
+      கருவில் உள்ள குழந்தைக்கு 
+      கூட அறிவைத் தரும் கல்வி
+      தன்னை அறிய உலகத்தை 
+      அரிய கல்விதான் துணை
+
+      கல்வி கல்வி கல்வி
+      கல்வி கல்வி கல்வி
+
+      படிக்க எழுத உதவும் கல்வி
+      நம் வாழ்க்கையை பல மடங்கு உயர்த்தும் கல்வி
+      பெண்களை உயர்ந்த நிலைக்கு உயர்த்தும் கல்வி
+      எல்லாம் சவாலையும் எதிர்த்து நல்ல
+      தன்னம்பிக்கை கொடுக்கும் கல்வி
+
+      கடுமை அழிக்க உலகத்தில் பசியை நீக்க
+      தண்மையான கல்வி மட்டுமே வழி
+      தண்மையான கல்வி மற்றும் ஏ மாற்றத்திற்கு தீர்வு 
+
+      கல்வி கல்வி கல்வி
+      கல்வி கல்வி கல்வி 
+    order: 5
+  - name: Kash Koi Hota
+    artist: Rohit K. D.
+    location: India
+    songId: a790ece3-851f-eb11-96f5-501ac5b31de6
+    noActionBtn: true
+    content: |-
+      **✏️ Bio:** Hi, my name is Rohit, I am a student of Shankar Mahadevan Academy. I love singing and creating new tracks!
+    lyrics: |-
+      **Translated Lyrics (in English):**
+      I feel helpless here
+      Experiencing many problems
+      What is the purpose of this life
+      When this story of mine feels incomplete
+
+      I wish I had someone for me
+      Oh Lord, why are you punishing to me?
+
+      The roof is my sky
+      The bed belongs to the ground
+      Neither any house nor any shelter 
+      Going to bed on an empty stomach
+
+      Never received any love and affection from parents
+      Never felt the feeling of happiness 
+      Why do people seem angry with me
+      When no one gets my feelings
+
+      It’s like the morning rays are trying to say
+      Don’t give up amidst these circumstances
+
+      I wish I had someone for me
+      Oh Lord, why are you punishing me?
+
+      
+      **Original Lyrics (Hindi):**
+      Be Sahara hu Yaha 
+      Mushkilo se gujar raha
+      Kya hai maksad jindagi Ka
+      Adhuri hai Meri ye dasta
+
+      Kash koi hota mera
+      Ae khuda q di ye saja
+
+      Chhat hai aasmano Ka
+      Bistar hai jamin ki
+      Na ghar hai na thikana
+      Khali pet hi hai sona
+
+      Na maa baap Ka pyar Mila
+      Na khushi Ka ehesas
+      Q ruthe hai log mujhase
+      Jasbado ko koi na samje
+
+      Subahaki Kiran keherehi ho Jaise
+      Naa harna Tu halatose
+
+      Kash koi hota mera
+      Ae khuda q di ye saja
+    order: 6
+  - name: Aye Mere Khuda
+    artist: Manpreet K. M. S. P.
+    location: India
+    songId: f1ada0e1-321e-eb11-96f5-501ac5b31de6
+    noActionBtn: true
+    content: |-
+      **✏️ Bio:** My name is Manpreet Kaur. I am a student of SYBSC IT. I've been learning hindustani vocal from Shankar Mahadevan academy since last 2 years. I love to sing.
+    lyrics: |-
+      **Translated Lyrics (in English):**
+      The heart is filled with countless emotions,
+      Unable to sleep peacefully but still sitting with dreams.
+      To burn the stove at home,
+      He kept burning in the sun.
+      Yes, I have seen the breath of the poor get sold in the form of balloons.
+
+      Why aren’t you able to hear my calls of cry?
+      At least listen to my calls now (x2)
+      Oh, my almighty, are you poorer than me as well?
+
+      Even though sick, I am unable to cure myself
+      Poverty is not letting me educate my kids
+      I can’t feed myself
+      I wonder how will I support my family
+      I spend the nights on tracks
+      A home is what I am looking for
+      Why aren’t you able to hear my calls of cry?
+      At least listen to my calls now (x2)
+      Oh, my almighty, are you poorer than me as well?
+
+      No lamp neither light, such is our Diwali
+      Played Holi with dust and sand
+      Did I have little troubles
+      that there is now an epidemic
+      It was difficult to get meals twice a day
+      Now it is a pain to get two morsels
+
+      Why aren’t you able to hear my calls of cry?
+      At least listen to my calls now (x2)
+      Oh, my almighty, are you poorer than me as well?
+      
+      **Original Lyrics (Hindi):**
+      Dil mein na jane kitne jazbaat liye baitha hai, 
+      Sukoon se soo nahi pata phir bhi khwaab liye baitha hai,
+      Ghar ka chula jal sake
+      Isliye dhoop mein woh jalta rehta hai
+      Ha maine gareeb ki saanson ko gubaaro mein bikate dekha hai
+
+      Kyu Na sune Tujhko Meri ye Guhar? 
+      Ab To Sun Meri Pukar (x2)
+      Aye Mere Khuda kya tu Mujhse bhi Garib hai…
+
+      Bimar hone par dawa na le pau
+      Lachar hu bacchon ko na padha pau
+      Khudka na khila saku main
+      Apno ko kaise palu Sochta Hun Main
+      Patari per hi guzarti hai Raatein
+      Aashiyana dhundhte Chala Hoon Main
+      Kyu Na sune Tujhko Meri ye Guhar? 
+      Ab To Sun Meri Pukar (x2)
+      Aye Mere Khuda kya tu Mujhse bhi Garib hai…
+
+      Na diya na batti Aisi apni Diwali 
+      Dhul Mitti Se khele Holi 
+      Kya Kam Thi yeh Mushkilen
+      Ki ab aayi yeh mahamaari
+      Dushkar thi do Waqt Ki Roti 
+      Ab Do nivale bhi Pade Bhari
+
+      Kyu Na sune Tujhko Meri ye Guhar? 
+      Ab To Sun Meri Pukar (x2)
+      Aye Mere Khuda kya tu Mujhse bhi Garib hai…
+    order: 7
+  - name: To Live or not to live
+    artist: Diksha R. H.
+    location: India
+    songId: c1353900-331e-eb11-96f5-501ac5b31de6
+    noActionBtn: true
+    content: |-
+      **✏️ Bio:** My name is Diksha. I study in Shrimati Kamla Mehta Blind School, Mumbai in 7th Grade. I love listening music, songs and playing piano. I enjoy singing classical songs. I was one year old when I started playing nursery rhymes on piano. I want to make my career in music. 
+    lyrics: |-
+      **Translated Lyrics (in English):**
+      To live or not to live,
+      He is living in Such condition,
+      Still see his face,
+      Every moment he laughs!!
+      To live or not to live.
+
+      On the way towards my school,
+      He can be found at the Signal,
+      Fruit, flower and gram,
+      He roam around with Toys!!
+      Seeing him, my heart cries in pain,
+      Still watch his face,
+      Every moment he laughs!!
+      To live or not to live.
+
+      Towards roadside and Under the bridge,
+      At the temple, mosque and at the station,
+      I found his presence wherever i go,
+      He is seen everywhere,
+      My eyes get teary eyed after seeing his condition.
+      Still watch his face,
+      Every moment he laughs!!
+      To live or not to live.
+
+      Lets stop this corruption,
+      Do not talk about caste and religion,
+      Every child will get education,
+      Government authority should do it,
+      He dreams about having food, cloth and home.
+      Still watch his face,
+      Every moment he laughs!!
+      To live or not to live.
+
+      Come let's fight together,
+      Benefit every convenience,
+      Society will change like this,
+      Poverty gets wiped out from the world!!
+
+      To live or not to live
+      To live or not to live,
+      This query should never arise in my mind,
+      Lets remove poverty in such a way,
+      That nobody should be termed as poor.
+      Nobody should be termed as poor.
+      
+      **Original Lyrics:**
+      (...)
+    order: 8
+prerequisites: 
+- welcome_quest
+visibleAtAge: 1
 
 
 # =======================================================

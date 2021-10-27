@@ -64,7 +64,7 @@ class EmbeddedPage extends Component {
         }
 
         let questDetails = <div className={ 'col-sm-10 offset-sm-1' }>
-          <h2>{activeStageData.name}</h2>
+          <h2 className="quest-title">{activeStageData.name}</h2>
           <h5>{activeStageData.subtitle}</h5>
           { this.getStageContentHtml(activeStageData.content) }
         </div>;

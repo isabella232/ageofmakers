@@ -54,6 +54,28 @@ class MusicShowcase extends Component {
     });
   }
 
+  renderLyrics(showcaseItem) {
+    if (showcaseItem.lyrics) {
+      let lyricsDiv;
+
+      if (this.isQuizOpen(showcaseItem)) {
+        lyricsDiv = <div className="quiz-results">
+          <div className="collapse show" onClick={() => { this.toggleQuizView(showcaseItem, false) }}>Hide Lyrics</div>
+          <Markdown mdContent={showcaseItem.lyrics} />
+        </div>
+      }
+      else {
+        lyricsDiv = <div className="quiz-results">
+          <div className="expand" onClick={() => { this.toggleQuizView(showcaseItem, true) }}>Show Lyrics & Translation</div>
+        </div>
+      }
+
+      return <div className="card-footer actions">
+        { lyricsDiv }
+      </div>
+    }
+  }
+
   renderActionBtn(showcaseItem) {
     if (!this.props.viewOnly && !showcaseItem.noActionBtn) {
       if (showcaseItem.status === stageStatus.STATUS_COMPLETE) {
@@ -116,6 +138,9 @@ class MusicShowcase extends Component {
     else if (song.songId) { 
       return <iframe className="playerWrapper" src={`https://www.bandlab.com/embed/?blur=false&id=${song.songId}`} frameborder="0" allowfullscreen></iframe>
     }
+    else if (song.videoId) {
+      return <iframe src={`https://www.youtube.com/embed/${song.videoId}`} className="youtubeVideo embedded" frameBorder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowFullScreen />
+    }
   }
 
   renderShowcaseItems() {
@@ -132,6 +157,7 @@ class MusicShowcase extends Component {
               </div>
               { (song.historicalContext) ? <p className="card-text"><strong>📆 Historical Context: </strong> {song.historicalContext}</p> : '' }
             </div>
+            { this.renderLyrics(song) }
             { this.renderActionBtn(song) }
           </div>
         </div>

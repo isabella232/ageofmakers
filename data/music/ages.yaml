@@ -49,7 +49,7 @@
   image: data/music/images/map-music-1.jpg
   position:
   - 30
-  - 45
+  - 55
   requirements:
     musiccity: 2
     changemaker: 2
