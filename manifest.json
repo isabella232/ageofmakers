@@ -1,7 +1,7 @@
 {
   "name": "Age of Makers",
   "description": "Inspire youth to become independent learners solving the world’s biggest challenges using their creativity & new technology.",
-  "version": "1.7.1.2",
+  "version": "1.8.0.0",
   "background": {
     "scripts": [
       "event.js"
