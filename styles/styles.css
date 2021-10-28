@@ -359,12 +359,24 @@ a.btn.disabled {
     color: white;
 }
 
+.cta + .cta .btn {
+    margin-top: 0px;
+}
+
 .cta .btn-beta-home {
     margin: 0 auto 115px;
 }
 
 .btn-beta {
     background-color: #FF5335;
+}
+
+.cta .btn-outline-dark {
+    color: #333;
+}
+
+.cta .btn-outline-dark:hover {
+    color: white;
 }
 
 .cta .btn-oss {
