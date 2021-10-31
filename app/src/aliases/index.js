@@ -216,7 +216,8 @@ const loadQuests = (journeyId, resolve) => {
     fetch(questsUrl)
       .then((questsResponse) => {
       if (questsResponse.status !== 200) {
-        console.error('Error while loading quests:', res);
+        console.error('Quest returned with wrong status:', res);
+        logOut({});
         return resolve({ error: questsResponse.status });
       }
 
@@ -279,7 +280,11 @@ const loadQuests = (journeyId, resolve) => {
           });
         });
       });
+    }).catch((error) => {
+      console.error('Error while loading the quests:', error);
+      logOut({});
     });
+    ;
   }
 }
 
