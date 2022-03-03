@@ -1,4 +1,4 @@
-![Age of Makers Logo](https://github.com/salesforce/ageofmakers/blob/master/images/AoM_Github_Banner.png?raw=true)
+![Age of Makers Logo](https://github.com/salesforce/ageofmakers/blob/master/images/AoM_Github_Banner.jpg?raw=true)
 
 # Age of Makers (AoM)
 
